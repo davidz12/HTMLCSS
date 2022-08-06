@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+}
+
+.titulo{
+    background-color: #48C9B0;
+    color: #17202A;
+}
+
+.f_img{
+    background-image: url(https://www.eclixxo.com/wp-content/uploads/2017/05/codigo-css-3.jpg);
+}
+
+/* Tamaños */
+
+.ancho{
+    background-color:  #F1C40F;
+    width: 300px;
+}
+
+.alto{
+    background-color: #4A235A;
+    height: 250px;
+    width: 300px;
+}
+
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-width: 6px;
+    /*border-top: none;*/
+    padding: 10px 20px; /* Espacio dentro de la caja. */
+    /*padding: 10px 20px 30px 40px;  Va en sentido reloj.*/
+    margin: 10px 20px;
+    /*margin: 10px 20px 30px 40px;  Va en sentido reloj.*/
+}
