@@ -1,0 +1,14 @@
+/* Posiciones de los elementos dentro de la pagina web. */
+
+.div-1, .div-2{
+    background-color: aqua;
+}
+
+.span-1{
+    background-color: chartreuse;
+}
+
+.span-2{
+    background-color: chartreuse;
+    float: right; /*Manda el elemento a la derecha de todo*/
+}

@@ -1,0 +1,36 @@
+.contenedor-hidden{
+    margin : 10px 0px;
+    background-color: lightblue;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden; /*Todo el texto dentro de las dimensiones*/
+
+}
+
+.contenedor-scroll{
+    margin: 10px 0px;
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll; /*Todo el texto dentro de las dimensiones*/
+}
+
+.contenedor-visible{
+    margin: 10px 0px;
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible; /*Todo el texto dentro de las dimensiones*/
+}
+
+.contenedor-auto{
+    margin: 10px 0px;
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto; /*Todo el texto dentro de las dimensiones*/
+}

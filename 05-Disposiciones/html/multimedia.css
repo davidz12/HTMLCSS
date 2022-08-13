@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal{
+    width: 90vw;
+    opacity: 1;
+}
+
+.imagen-principal:hover {
+    opacity: 0.6;
+}
