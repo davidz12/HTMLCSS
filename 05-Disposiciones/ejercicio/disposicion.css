@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    background-color: #AB86BB;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img1{
+    width: 300px;
+}
+.img2{
+    width: 300px;
+}
+.img3{
+    width: 300px;
+}
+.img4{
+    width: 300px;
+}
+.img5{
+    width: 300px;
+}
+.img6{
+    width: 300px;
+}
