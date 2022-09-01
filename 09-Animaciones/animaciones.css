@@ -1,0 +1,48 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    /*transition: transform 1s 2s; la primera es la duracion, La ultima propiedad es el delay*/
+    animation: traslacion 4s ease-in-out infinite forwards alternate;
+    /*
+    ease-in: dentro del div.
+    ease-in-out: puede salir del div.
+    */
+}
+
+.padre:hover .hijo { 
+    /*Cuando pasemos por el div padre, va a afectar a la clase "hijo"*/
+    /*transform: translateX(100%);
+    background-color: blueviolet;*/
+    animation-play-state: paused; /*Va a pausar la animacion*/
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: beige;
+        transform: translateX(0%) translateY(0%)
+    }
+
+    25%{
+        background-color: beige;
+        transform: translateX(100%) translateY(0%);
+    }
+
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100% {
+        transform: translateX(0%) translateY(0%);
+    }
+}
